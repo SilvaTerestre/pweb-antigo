@@ -22,5 +22,6 @@ public class AgoraServlet extends HttpServlet {
 		
 		resp.setContentType("text/html;charset=UTF=8");
 		resp.getWriter().print(html);
+		System.out.println("Testando o Git");
 	}
 }
